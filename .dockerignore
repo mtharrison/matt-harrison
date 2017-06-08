@@ -1,0 +1,6 @@
+node_modules
+bin
+.git
+Dockerfile
+content/data
+content/images
