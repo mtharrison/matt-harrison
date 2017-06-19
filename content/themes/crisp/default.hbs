@@ -18,12 +18,28 @@
             <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
             <script>hljs.initHighlightingOnLoad();</script>
 
+            <script type="text/x-mathjax-config">
+                MathJax.Hub.Config({
+                    extensions: ["tex2jax.js"],
+                    jax: ["input/TeX", "output/HTML-CSS"],
+                    tex2jax: {
+                        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                        processEscapes: true
+                    },
+                    displayAlign: "left",
+                    "HTML-CSS": { availableFonts: ["TeX"] }
+                });
+            </script>
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+
 			<link rel="stylesheet" type="text/css" href="{{asset '/styles/crisp.css'}}">
 			<link rel="stylesheet" type="text/css" href="{{asset '/styles/custom.css'}}">
 			{{! Responsive Meta Tags }}
-	    <meta name="HandheldFriendly" content="True" />
-	    <meta name="MobileOptimized" content="320" />
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    	    <meta name="HandheldFriendly" content="True" />
+    	    <meta name="MobileOptimized" content="320" />
+    	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 			<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 			<!--[if lt IE 9]>
 				<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
