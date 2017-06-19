@@ -286,3 +286,6 @@ footer a:hover {
 .linksBlock .cv {
 	margin-top: 10px;
 }
+.MathJax {
+	outline: 0!important;
+}
