@@ -8,7 +8,7 @@ html, body {
 	line-height: 1.65em;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 300;
-	color:#444;
+	color: #000;
 }
 html {
 	height: 100%;
@@ -18,7 +18,7 @@ body {
 }
 /* Blocks */
 header {
-	border-right: 1px #eee solid;
+	border-right: 1px #aaa solid;
 	padding: 2em;
 	position:absolute;
 	top: 0;
@@ -46,8 +46,8 @@ p, hr, h4, h5, h6 {
 }
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Lato", serif;
-	font-weight: 400 !important;
+	/* font-family: "Lato", serif; */
+	font-weight: 500 !important;
 }
 h1 {
 	font-size: 2.5em;
@@ -82,8 +82,8 @@ img, iframe {
 }
 a {
 	font-weight:700;
-	text-decoration:underline;
-	color: #444; /* Change Link Color */
+	text-decoration: none;
+	color: #000; /* Change Link Color */
 }
 article a {
     font-weight: normal;
@@ -111,8 +111,9 @@ ul, ol {
 	margin-left: 3em;
 }
 code {
-	font-size:1.4em;
+	font-size: 1.2em;
 	background: #eee;
+	padding: 3px;
 }
 pre {
 	font-size: 0.8em;
@@ -137,7 +138,7 @@ header h1 {
 	margin-bottom:0.6em;
 }
 header h1 a {
-	color:#444;
+	color:#000;
 }
 header h1 a:hover {
 	text-decoration:none;
@@ -183,7 +184,7 @@ h3.post-title {
 	padding-bottom:0.9em;
 	border-bottom: 1px solid #eee;
 	font-size: 1.2em;
-	color: #444;
+	color: #000;
 }
 .post-title .feature-star {
 	font-size: 0.9em;
@@ -225,7 +226,7 @@ footer a {
 	text-decoration: underline;
 }
 footer a:hover {
-	color:#444;
+	color:#000;
 	text-decoration: none;
 }
 /* Large Screens */
